@@ -1,5 +1,5 @@
 module "vnet" {
-  source              = "."
+  source              = "./"
   vnet_name           = var.vnet_name
   address_space       = var.address_space
   location            = var.location
